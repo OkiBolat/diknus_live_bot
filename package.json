@@ -1,0 +1,19 @@
+{
+  "name": "bot-dik_nus",
+  "version": "1.0.0",
+  "description": "",
+  "main": "livestream_bot.js",
+  "scripts": {
+    "start": "pm2 start ecosystem.config.js",
+    "stop": "pm2 stop telegram-livestream-bot",
+    "restart": "pm2 restart telegram-livestream-bot",
+    "logs": "pm2 logs telegram-livestream-bot",
+    "status": "pm2 status"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.66.0"
+  }
+}
